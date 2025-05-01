@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cursed+Timer+ULiL&display=swap');
+
+body {
+    margin: 0;
+    background: radial-gradient(circle at center, #1B244A, #0f172a);
+    font-family: 'Verdana', sans-serif;
+    color: #EEEEEE;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+/* Scoreboard Titles */
+h3 {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 0 20px 0;
+    text-shadow: 0 0 10px #fff, 0 0 20px #F94F6D, 0 0 30px #F94F6D;
+}
+
+/* Score Box */
+.home-score,
+.guest-score {
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    border: 3px solid #F94F6D;
+    box-shadow: 0 0 15px #F94F6D;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Score Text */
+.home-points-text,
+.guest-points-text {
+    width: 117px;
+    height: 120px;
+    font-family: 'Cursed Timer ULiL', monospace;
+    font-size: 90px;
+    line-height: 120px;
+    text-align: center;
+    color: #F94F6D;
+    margin: -120px auto 0 auto;
+    z-index: 1;
+    position: relative;
+    text-shadow: 0 0 15px #F94F6D, 0 0 30px #F94F6D;
+    transition: transform 0.3s ease;
+}
+
+/* Hover animation */
+.home-points-text:hover,
+.guest-points-text:hover {
+    transform: scale(1.1);
+}
+
+/* Buttons Container */
+.add-points-btns-home,
+.add-points-btns-guest {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 155px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #9AABD8;
+}
+
+button:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+    box-shadow: 0 0 20px #9AABD8, 0 0 30px #ffffff;
+    transform: scale(1.1);
+}
