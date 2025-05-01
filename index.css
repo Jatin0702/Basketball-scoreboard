@@ -27,7 +27,7 @@ h3 {
 
 /* Score Box */
 .home-score,
-.guest-score {
+.Away-score {
     width: 155px;
     height: 120px;
     background-color: black;
@@ -39,7 +39,7 @@ h3 {
 
 /* Score Text */
 .home-points-text,
-.guest-points-text {
+.Away-points-text {
     width: 117px;
     height: 120px;
     font-family: 'Cursed Timer ULiL', monospace;
@@ -56,13 +56,13 @@ h3 {
 
 /* Hover animation */
 .home-points-text:hover,
-.guest-points-text:hover {
+.Away-points-text:hover {
     transform: scale(1.1);
 }
 
 /* Buttons Container */
 .add-points-btns-home,
-.add-points-btns-guest {
+.add-points-btns-Away {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;

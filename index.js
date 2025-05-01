@@ -1,36 +1,36 @@
-let home = 0
-let guest = 0
+let Home = 0
+let Away = 0
 
-let homeScore = document.getElementById("home-score")
-let guestScore = document.getElementById("guest-score")
+let HomeScore = document.getElementById("Home-score")
+let AwayScore = document.getElementById("Away-score")
 
 
 function addPoints1Home(){
-    home += 1
-    homeScore.textContent = home
+    Home += 1
+    HomeScore.textContent = Home
 }
 
 function addPoints2Home(){
-    home += 2
-    homeScore.textContent = home
+    Home += 2
+    HomeScore.textContent = Home
 }
 
 function addPoints3Home(){
-    home += 3
-    homeScore.textContent = home
+    Home += 3
+    HomeScore.textContent = Home
 }
 
-function addPoints1Guest(){
-    guest += 1
-    guestScore.textContent = guest
+function addPoints1Away(){
+    Away += 1
+    AwayScore.textContent = Away
 }
 
-function addPoints2Guest(){
-    guest += 2
-    guestScore.textContent = guest
+function addPoints2Away(){
+    Away += 2
+    AwayScore.textContent = Away
 }
 
-function addPoints3Guest(){
-    guest += 3
-    guestScore.textContent = guest
+function addPoints3Away(){
+    Away += 3
+    AwayScore.textContent = Away
 }
